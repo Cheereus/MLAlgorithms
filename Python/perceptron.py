@@ -2,7 +2,7 @@
 @Description: 感知机
 @Author: 陈十一
 @Date: 2020-07-27 09:28:13
-@LastEditTime: 2020-07-27 10:12:40
+@LastEditTime: 2020-07-27 10:18:51
 @LastEditors: 陈十一
 '''
 import numpy as np
@@ -44,6 +44,16 @@ def Perceptron(X, Y, w=None, b=0, r=1):
 Xs = np.array([(3,3), (4,3), (1,1)])
 Ys = [1, 1, -1]
 Perceptron(Xs, Ys)
+
+'''
+iteration times: 1 mis point X 1 w= [3. 3.] b= 1
+iteration times: 2 mis point X 3 w= [2. 2.] b= 0
+iteration times: 3 mis point X 3 w= [1. 1.] b= -1
+iteration times: 4 mis point X 3 w= [0. 0.] b= -2
+iteration times: 5 mis point X 1 w= [3. 3.] b= -1
+iteration times: 6 mis point X 3 w= [2. 2.] b= -2
+iteration times: 7 mis point X 3 w= [1. 1.] b= -3
+'''
 
 
     
